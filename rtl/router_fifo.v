@@ -78,3 +78,5 @@ assign full=((wr_ptr[4]!=rd_ptr[4])&&(wr_ptr[3:0]==rd_ptr[3:0]));
 assign empty=(wr_ptr==rd_ptr);
 
 endmodule
+
+  
